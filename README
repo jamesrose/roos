@@ -3,4 +3,3 @@
 ## TODO
 
 1. Global constructors
-2. Move terminal stuff out of `kernel.c`
