@@ -4,11 +4,6 @@
 
 #include "kernel.h"
 
-size_t terminal_row;
-size_t terminal_column;
-uint8_t terminal_color;
-uint16_t* terminal_buffer;
- 
 void terminal_reset() {
   for ( size_t y = 0; y < VGA_HEIGHT; y++ ) {
     for ( size_t x = 0; x < VGA_WIDTH; x++ ) {
