@@ -2,4 +2,8 @@
 
 ## TODO
 
-1. Global constructors
+### Interupts
+
+1. Add GDT
+2. Add IDT
+3. Add interupts & keyboard handler

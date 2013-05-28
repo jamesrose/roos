@@ -1,4 +1,4 @@
-OBJECTS = build/boot.o build/kernel.o build/terminal.o
+OBJECTS = build/boot.o build/kernel.o build/terminal.o build/keyboard.o
 
 default: clean all run
 
